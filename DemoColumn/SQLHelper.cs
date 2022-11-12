@@ -107,6 +107,10 @@ namespace DemoColumn
             try
             {
                 MySqlCommand.CommandType = pEnmCommandType;
+
+
+
+
                 MySqlCommand.CommandText = pStrCommandText;
                 MySqlCommand.Connection = MySqlConnction;
 
